@@ -16,6 +16,23 @@ body {
     border: none;
 }
 
+.secondary-btn{
+    color: #1d4ed8;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid #1d4ed8;
+    width: 100%;
+}
+
+.pro-btn{
+    background-color: #1d4ed8;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
 
 /* navbar css */
 nav {
@@ -122,4 +139,154 @@ nav li a:hover {
 .speaker-name{
     margin:8px 0px;
     font-size: 20px;
+}
+
+
+/* packages */
+.packages{
+    margin: 80px auto;
+}
+
+.pakcage-heading{
+    text-align: center;
+    margin: 48px 0px;
+}
+
+.pakcage-heading h1{
+    font-size: 48px;
+    margin: 0px;
+}
+.pakcage-heading p{
+    font-size: 16px;
+    margin: 12px 0px;
+    color: #575757;
+}
+
+.package-cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.package-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.package-card p{
+    margin: 5px 0px;
+    color: #575757;
+    font-size: 13px;
+}
+
+.package-card h1{
+    margin: 0px;
+    font-size: 44px;
+}
+
+.package-name{
+    margin-bottom: 32px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+.pro-hr {
+    border: none;
+    height: 1px;
+    background-color: #575757;
+}
+
+.features{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #575757;
+
+    font-size: 14px;
+}
+
+.features li::marker{
+   color: #1d4ed8;
+}
+
+.pro-card{
+    border: 1px solid #0D1B2A;
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.pro-name{
+    margin-bottom: 32px;
+}
+
+.pro-package-name{
+    margin: 5px 0px;
+    color: #1d4ed8;
+    font-size: 13px;
+}
+
+.pro-package-person{
+    margin: 0px;
+    color: #E5E7EB;
+    font-size: 13px;
+}
+
+.pro-card h1{
+    margin: 0px;
+    font-size: 44px;
+    color: white;
+}
+
+.pro-features{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.pro-features li::marker{
+   color: #1d4ed8;
+}
+
+footer{
+    background-color: #0D1B2A;
+}
+.footer{
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom{
+    color: #575757;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
 }
