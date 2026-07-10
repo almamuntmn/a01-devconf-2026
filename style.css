@@ -16,14 +16,15 @@ body {
     border: none;
 }
 
-.primary-btn:hover, .pro-btn:hover{
+.primary-btn:hover,
+.pro-btn:hover {
     cursor: pointer;
     background-color: #ffffff;
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
 
-.secondary-btn{
+.secondary-btn {
     color: #1d4ed8;
     background-color: white;
     padding: 15px 30px;
@@ -32,7 +33,7 @@ body {
     width: 100%;
 }
 
-.secondary-btn:hover{
+.secondary-btn:hover {
     cursor: pointer;
     background-color: #1d4ed8;
     color: white;
@@ -42,7 +43,7 @@ body {
     width: 100%;
 }
 
-.pro-btn{
+.pro-btn {
     background-color: #1d4ed8;
     color: white;
     padding: 15px 30px;
@@ -112,98 +113,99 @@ nav li a:hover {
 
 /* Speakers section */
 
-.speakers-section{
+.speakers-section {
     margin: 80px auto;
 }
 
-.speakers-section h1{
+.speakers-section h1 {
     text-align: center;
     font-size: 56px;
     margin-bottom: 56px;
 }
 
-.speakers{
+.speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.card{
+.card {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
 }
 
-.card img{
+.card img {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
 
-.speaker-info{
-    padding: 24px ;
+.speaker-info {
+    padding: 24px;
 }
 
-.speaker-title{
+.speaker-title {
     color: #1d4ed8;
     margin: 0px;
     font-size: 12px;
 }
 
-.speaker-company{
+.speaker-company {
     color: #575757;
     margin: 0px;
     font-size: 14px;
 }
 
-.speaker-name{
-    margin:8px 0px;
+.speaker-name {
+    margin: 8px 0px;
     font-size: 20px;
 }
 
 
 /* packages */
-.packages{
+.packages {
     margin: 80px auto;
 }
 
-.pakcage-heading{
+.pakcage-heading {
     text-align: center;
     margin: 48px 0px;
 }
 
-.pakcage-heading h1{
+.pakcage-heading h1 {
     font-size: 48px;
     margin: 0px;
 }
-.pakcage-heading p{
+
+.pakcage-heading p {
     font-size: 16px;
     margin: 12px 0px;
     color: #575757;
 }
 
-.package-cards{
+.package-cards {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.package-card{
+.package-card {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     padding: 32px;
 }
 
-.package-card p{
+.package-card p {
     margin: 5px 0px;
     color: #575757;
     font-size: 13px;
 }
 
-.package-card h1{
+.package-card h1 {
     margin: 0px;
     font-size: 44px;
 }
 
-.package-name{
+.package-name {
     margin-bottom: 32px;
 }
 
@@ -212,13 +214,14 @@ hr {
     height: 1px;
     background-color: #E5E7EB;
 }
+
 .pro-hr {
     border: none;
     height: 1px;
     background-color: #575757;
 }
 
-.features{
+.features {
     margin: 0px;
     padding: 20px;
     display: flex;
@@ -229,40 +232,40 @@ hr {
     font-size: 14px;
 }
 
-.features li::marker{
-   color: #1d4ed8;
+.features li::marker {
+    color: #1d4ed8;
 }
 
-.pro-card{
+.pro-card {
     border: 1px solid #0D1B2A;
     background-color: #0D1B2A;
     border-radius: 12px;
     padding: 32px;
 }
 
-.pro-name{
+.pro-name {
     margin-bottom: 32px;
 }
 
-.pro-package-name{
+.pro-package-name {
     margin: 5px 0px;
     color: #1d4ed8;
     font-size: 13px;
 }
 
-.pro-package-person{
+.pro-package-person {
     margin: 0px;
     color: #E5E7EB;
     font-size: 13px;
 }
 
-.pro-card h1{
+.pro-card h1 {
     margin: 0px;
     font-size: 44px;
     color: white;
 }
 
-.pro-features{
+.pro-features {
     margin: 0px;
     padding: 20px;
     display: flex;
@@ -273,35 +276,81 @@ hr {
     font-size: 14px;
 }
 
-.pro-features li::marker{
-   color: #1d4ed8;
+.pro-features li::marker {
+    color: #1d4ed8;
 }
 
-footer{
+/* why attend css */
+.why-attent-container {
+    margin: 80px auto;
+}
+
+.why-attent-heading{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.why-attent-heading h1{
+    margin: 0px;
+    font-size: 48px;
+}
+.why-attent-heading p{
+    margin: 0px;
+    font-size: 20px;
+    color: #575757;
+}
+
+.why-attent-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.why-attent-cards img {
+    width: 40px;
+    height: 40px;
+}
+
+.why-attent-cards p{
+    color: #575757;
+    font-size: 14px;
+}
+
+.why-attent-card {
+    padding: 50px 30px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+/* footer */
+
+footer {
     background-color: #0D1B2A;
 }
-.footer{
+
+.footer {
     margin: auto;
     padding: 30px 0px;
 }
 
-.footer-top{
+.footer-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     gap: 20px;
 }
 
-.social-icons img{
+.social-icons img {
     width: 30px;
     height: 30px;
 }
 
-.footer-bottom{
+.footer-bottom {
     color: #575757;
     display: flex;
     justify-content: space-between;
