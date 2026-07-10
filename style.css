@@ -1,0 +1,43 @@
+body{
+    max-width: 1320px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.primary-btn{
+    background-color: #1d4ed8;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* navbar css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+nav li a:hover{
+    color: #1d4ed8;
+}
+
+
+
+
+
