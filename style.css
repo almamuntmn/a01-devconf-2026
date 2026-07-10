@@ -16,12 +16,29 @@ body {
     border: none;
 }
 
+.primary-btn:hover, .pro-btn:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+
 .secondary-btn{
     color: #1d4ed8;
     background-color: white;
     padding: 15px 30px;
     border-radius: 10px;
     border: 1px solid #1d4ed8;
+    width: 100%;
+}
+
+.secondary-btn:hover{
+    cursor: pointer;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
     width: 100%;
 }
 
